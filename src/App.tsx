@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Button disabled>Hello</Button>
-        <Button>Hello</Button>
+        <Button autoFocus>Hello</Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
           Hello
         </Button>
